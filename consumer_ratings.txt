@@ -50,7 +50,7 @@ consumer = KafkaConsumer(
 )
 
 # Fields
-fields = ['user_id','movieId', 'rating','timestamp','event_time']
+fields = ['user_id','movieid', 'rating','timestamp','event_time']
 
 # Iterate through the elements in consumer for count, i in enumerate(consumer):
 for count,msg in enumerate(consumer):
